@@ -1,8 +1,34 @@
 {
   "version": 2,
-  "dgSpecHash": "ujIFm9GLa+P9fC3PDfO7leQT/MauVNBDQaTuyMYOD6IH3zE0Bbbe44ZsTT1P+QIkL5pjRGv4Qi5nxflnSyBiFg==",
+  "dgSpecHash": "ThEfhILb5Sf8S1Q939IQlOwqWHFwdb6/42t0HXNDeDKYtK6CerZlR5ff7MgxwYzT788fEb89WlsVovMOoHaOvQ==",
   "success": true,
   "projectFilePath": "F:\\OpenGL C#\\Geometry\\GeometryOpenTK\\GeometryOpenTK.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\opentk\\3.3.3\\opentk.3.3.3.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\opentk.glcontrol\\3.3.3\\opentk.glcontrol.3.3.3.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'OpenTK 3.3.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "OpenTK",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'OpenTK.GLControl 3.3.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "OpenTK.GLControl",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }

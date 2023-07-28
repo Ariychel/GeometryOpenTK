@@ -1,9 +1,10 @@
 ﻿<Application x:Class="GeometryOpenTK.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:GeometryOpenTK"
-             StartupUri="MainWindow.xaml">
+             xmlns:local="clr-namespace:GeometryOpenTK" 
+             xmlns:providers="clr-namespace:GeometryOpenTK.Providers"
+             StartupUri="Views/MainWindow.xaml">
     <Application.Resources>
-         
+        <providers:Provider x:Key="Provider"/>
     </Application.Resources>
 </Application>
