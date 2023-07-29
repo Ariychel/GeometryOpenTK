@@ -55,6 +55,9 @@
         }
       },
       "Geometry/1.0.0": {
+        "dependencies": {
+          "OpenTK.GLControl": "3.3.3"
+        },
         "runtime": {
           "Geometry.dll": {}
         }

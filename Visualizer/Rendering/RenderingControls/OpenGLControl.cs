@@ -23,7 +23,7 @@ namespace Visualizer.Rendering.RenderingControls
         {
             InitControl();
 
-
+            LabSolver.ResultRendering();
 
             SwapBuffers();
         }

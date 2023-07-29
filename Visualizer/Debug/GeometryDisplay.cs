@@ -35,5 +35,15 @@ namespace Visualizer.Debug
             GL.Vertex3(line.End.X, line.End.Y, line.End.Z);
             GL.End();
         }
+
+        public static void Triangle(Triangle triangle, Color color)
+        {
+            GL.Begin(BeginMode.Triangles);
+            GL.Color3(color);
+            GL.Vertex3(triangle.A.X, triangle.A.Y, triangle.A.Z);
+            GL.Vertex3(triangle.B.X, triangle.B.Y, triangle.B.Z);
+            GL.Vertex3(triangle.C.X, triangle.C.Y, triangle.C.Z);
+            GL.End();
+        }
     }
 }
