@@ -1,0 +1,93 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "GeometryOpenTK/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": "7.0.0",
+          "OpenTK.GLControl": "3.3.3"
+        },
+        "runtime": {
+          "GeometryOpenTK.dll": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection/7.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/7.0.0": {
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
+      "OpenTK/3.3.3": {
+        "runtime": {
+          "lib/net20/OpenTK.dll": {
+            "assemblyVersion": "3.3.3.0",
+            "fileVersion": "3.3.3.0"
+          }
+        }
+      },
+      "OpenTK.GLControl/3.3.3": {
+        "dependencies": {
+          "OpenTK": "3.3.3"
+        },
+        "runtime": {
+          "lib/net20/OpenTK.GLControl.dll": {
+            "assemblyVersion": "3.3.3.0",
+            "fileVersion": "3.3.3.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GeometryOpenTK/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Extensions.DependencyInjection/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-elNeOmkeX3eDVG6pYVeV82p29hr+UKDaBhrZyWvWLw/EVZSYEkZlQdkp0V39k/Xehs2Qa0mvoCvkVj3eQxNQ1Q==",
+      "path": "microsoft.extensions.dependencyinjection/7.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-h3j/QfmFN4S0w4C2A6X7arXij/M/OVw3uQHSOFxnND4DyAzO1F9eMX7Eti7lU/OkSthEE0WzRsfT/Dmx86jzCw==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/7.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+    },
+    "OpenTK/3.3.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KtnygHEuYj4+agNsZRtzh5iSiKlelDZvDB/OhfebEvIDX/97Pzygv8n5llZHgrI7Xa29vvkucVBeN55R6/k+4w==",
+      "path": "opentk/3.3.3",
+      "hashPath": "opentk.3.3.3.nupkg.sha512"
+    },
+    "OpenTK.GLControl/3.3.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OJKQN4s7tCzdDUoLmrEEwAzywlhIu/vmLO+qhUG4FAUKwaxNqyGYbdLgzgH4RtNzP6Qs8ZDx0RxNHXyn/DPgUA==",
+      "path": "opentk.glcontrol/3.3.3",
+      "hashPath": "opentk.glcontrol.3.3.3.nupkg.sha512"
+    }
+  }
+}

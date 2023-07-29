@@ -7,7 +7,12 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Page Update="MainWindow.xaml">
+    <Compile Update="Rendering\RenderingControls\OpenGLControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Views\MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
