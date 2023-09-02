@@ -1,0 +1,10 @@
+F:\OpenGL C#\Geometry\Geometry\bin\Debug\netcoreapp3.1\Geometry.deps.json
+F:\OpenGL C#\Geometry\Geometry\bin\Debug\netcoreapp3.1\Geometry.dll
+F:\OpenGL C#\Geometry\Geometry\bin\Debug\netcoreapp3.1\Geometry.pdb
+F:\OpenGL C#\Geometry\Geometry\obj\Debug\netcoreapp3.1\Geometry.csproj.AssemblyReference.cache
+F:\OpenGL C#\Geometry\Geometry\obj\Debug\netcoreapp3.1\Geometry.GeneratedMSBuildEditorConfig.editorconfig
+F:\OpenGL C#\Geometry\Geometry\obj\Debug\netcoreapp3.1\Geometry.AssemblyInfoInputs.cache
+F:\OpenGL C#\Geometry\Geometry\obj\Debug\netcoreapp3.1\Geometry.AssemblyInfo.cs
+F:\OpenGL C#\Geometry\Geometry\obj\Debug\netcoreapp3.1\Geometry.csproj.CoreCompileInputs.cache
+F:\OpenGL C#\Geometry\Geometry\obj\Debug\netcoreapp3.1\Geometry.dll
+F:\OpenGL C#\Geometry\Geometry\obj\Debug\netcoreapp3.1\Geometry.pdb
