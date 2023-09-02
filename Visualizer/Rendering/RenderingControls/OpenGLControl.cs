@@ -40,11 +40,11 @@ namespace Visualizer.Rendering.RenderingControls
             GL.MatrixMode(MatrixMode.Projection);
             GL.LoadMatrix(ref perspectiveMatrix);
 
-            Camera.SetIsoCamera(15f, new Point3f(0, 0, 0));
+            LabSolver.SetCamera();
 
-            GeometryDisplay.Line3d(new Line3d(new Point3d(0, 0, 0), new Point3d(100, 0, 0)), 2, Color.Red); //X coord line
-            GeometryDisplay.Line3d(new Line3d(new Point3d(0, 0, 0), new Point3d(0, 100, 0)), 2, Color.Green); //Y coord line
-            GeometryDisplay.Line3d(new Line3d(new Point3d(0, 0, 0), new Point3d(0, 0, 100)), 2, Color.Blue); //Z coord line
+            GeometryDisplay.Line(new Line3d(new Point3d(0, 0, 0), new Point3d(100, 0, 0)), 2, Color.Red); //X coord line
+            GeometryDisplay.Line(new Line3d(new Point3d(0, 0, 0), new Point3d(0, 100, 0)), 2, Color.Green); //Y coord line
+            GeometryDisplay.Line(new Line3d(new Point3d(0, 0, 0), new Point3d(0, 0, 100)), 2, Color.Blue); //Z coord line
         }
     }
 }

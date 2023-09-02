@@ -1,4 +1,6 @@
-﻿namespace Geometry.Structures
+﻿using OpenTK;
+
+namespace Geometry.Structures
 {
     public class Point3f
     {
@@ -13,6 +15,11 @@
             X = x;
             Y = y;
             Z = z;
+        }
+
+        public static Point3f operator *(Point3f p, Vector3 v)
+        {
+            return new Point3f(p.X * v.X, p.Y * v.Y, p.Z * v.Z);
         }
     }
 }

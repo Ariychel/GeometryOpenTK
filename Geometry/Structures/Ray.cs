@@ -4,11 +4,11 @@ namespace Geometry.Structures
 {
     public class Ray
     {
-        public Point3f Start { get; }
+        public Point3d Start { get; }
 
-        public Vector3 Direction { get; }
+        public Vector3d Direction { get; }
 
-        public Ray(Point3f start, Vector3 direction)
+        public Ray(Point3d start, Vector3d direction)
         {
             Start = start;
             Direction = direction;
